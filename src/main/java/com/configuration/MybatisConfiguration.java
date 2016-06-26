@@ -13,6 +13,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 /**
+ * mybatis配置
  * Created by wangyong on 2016/6/26.
  */
 @Component
