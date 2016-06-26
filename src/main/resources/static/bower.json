@@ -1,0 +1,24 @@
+{
+  "name": "springmvc-shiro",
+  "homepage": "https://github.com/hadesvip/springmvc-shiro",
+  "authors": [
+    "yundan"
+  ],
+  "description": "springmvc-shiro",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.7",
+    "font-awesome": "^4.6.3"
+  }
+}

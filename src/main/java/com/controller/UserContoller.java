@@ -9,10 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserContoller {
 
-    @RequestMapping("/")
-    public String hello() {
-        return "hello,userContoller...";
+    @RequestMapping("/user")
+    public String user() {
+        return "welcome,user...";
     }
 
-
+    @RequestMapping("/")
+    public String welcome(){
+        return  "<h3>welcome....</h3>";
+    }
 }
