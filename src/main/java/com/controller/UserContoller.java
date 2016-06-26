@@ -11,6 +11,7 @@ public class UserContoller {
 
     @RequestMapping("/user")
     public String user() {
+
         return "welcome,user...";
     }
 

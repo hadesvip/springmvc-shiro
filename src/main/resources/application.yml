@@ -1,27 +1,37 @@
 spring:
+  profiles:
+      active: prod
   application:
     name: springmvc-shiro
     description: ${application.name} is a Spring Boot application
   resources:
-      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/templates/
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/
+  #thymeleaf
+  thymeleaf:
+    cache: true
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    encoding: utf-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+  #velocity
 
-  address: 127.0.0.1
-  port: 8080
+  #SOLR
 
-logging:
-  level:
-      org.springframework.web: DEBUG
-  file:  log/springmvc-shiro.log
+  # JACKSON
+  # DATA REST
+  # MONGODB
+  # REDIS
+  # ELASTICSEARCH
+  # DATABASE
+  # DATASOURCE
+  # ACTIVEMQ
+  # RABBIT
+  #eg....
 
-jdbc:
-  driverClassName: com.mysql.jdbc.Driver
-  url: jdbc:mysql://localhost:3306/user_db?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8
-  username: root
-  password: root
 
-mybatis:
-  typeAliasesPackage: com.bean
-  mapperLocations: classpath:mapper/*
 
 
 

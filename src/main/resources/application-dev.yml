@@ -1,0 +1,20 @@
+#开发环境
+server:
+  address: 127.0.0.1
+  port: 8080
+
+
+logging:
+  level:
+      org.springframework.web: DEBUG
+  file:  log/springmvc-shiro.log
+
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/user_db?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8
+  username: root
+  password: root
+
+mybatis:
+  typeAliasesPackage: com.bean
+  mapperLocations: classpath:mapper/*
