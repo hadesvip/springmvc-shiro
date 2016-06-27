@@ -6,6 +6,7 @@ spring:
     description: ${application.name} is a Spring Boot application
   resources:
       static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/
+
   #thymeleaf
   thymeleaf:
     cache: true
@@ -16,6 +17,7 @@ spring:
     mode: HTML5
     prefix: classpath:/templates/
     suffix: .html
+
   #velocity
 
   #SOLR

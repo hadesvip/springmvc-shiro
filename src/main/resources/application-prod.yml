@@ -1,7 +1,7 @@
 #正式环境
 server:
   address: 127.0.0.1
-  port: 80
+  port: 8081
 
 
 logging:

@@ -85,7 +85,6 @@ public class ShiroConfiguration {
         defaultAdvisorAutoProxyCreator.setProxyTargetClass(true);
         return defaultAdvisorAutoProxyCreator;
 
-
     }
 
     /**
